@@ -193,6 +193,7 @@ body{
 .box41:hover{
 	opacity: 0.6;
 	cursor:pointer;
+	transition:all 500ms;
 }
 
 .box42{
@@ -206,6 +207,7 @@ body{
 .box42:hover{
 	opacity: 0.6;
 	cursor:pointer;
+	transition:all 500ms;
 }
 
 .box43{
@@ -219,6 +221,7 @@ body{
 .box43:hover{
 	opacity: 0.6;
 	cursor:pointer;
+	transition:all 500ms;
 }
 
 .p41{
