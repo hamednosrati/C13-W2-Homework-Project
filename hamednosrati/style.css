@@ -3,6 +3,19 @@
   margin: 0;
 }
 
+::selection {
+	background: #DEDC00; /* Safari */
+	}
+::-moz-selection {
+	background: #DEDC00; /* Firefox */
+}
+
+::-webkit-selection {
+	background: #DEDC00; /* Firefox */
+}
+
+
+
 body{
   background-color:#f5f4f2;
 }
@@ -177,6 +190,11 @@ body{
   background-repeat: no-repeat;
 }
 
+.box41:hover{
+	opacity: 0.6;
+	cursor:pointer;
+}
+
 .box42{
   width:33%;
   float:left;
@@ -185,12 +203,22 @@ body{
   background-repeat: no-repeat;
 }
 
+.box42:hover{
+	opacity: 0.6;
+	cursor:pointer;
+}
+
 .box43{
   width:33%;
   float:left;
   background-image: url('image/c43.jpg');
   height: 110px;
   background-repeat: no-repeat;
+}
+
+.box43:hover{
+	opacity: 0.6;
+	cursor:pointer;
 }
 
 .p41{
