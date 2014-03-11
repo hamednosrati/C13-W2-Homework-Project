@@ -144,9 +144,7 @@ body{
 
 .floor3 ul li:hover{
   width:630px;
- transition:all 2s;
-
-  
+ transition:all 2s;  
 }
 
 .floor3 ul li:nth-child(1){
